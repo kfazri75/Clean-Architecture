@@ -1,0 +1,39 @@
+dependencies {
+
+	implementation "androidx.core:core-ktx:$core_ktx_version"
+	implementation "androidx.appcompat:appcompat:$appcompat_version"
+	implementation "androidx.constraintlayout:constraintlayout:$constraint_version"
+
+	// Coil
+	implementation "io.coil-kt:coil:$coil_version"
+
+	// Material Design
+	implementation "com.google.android.material:material:$material_version"
+	implementation "com.shreyaspatil:MaterialDialog:$materia_dialog_version"
+
+	// leak canary
+	debugImplementation "com.squareup.leakcanary:leakcanary-android:$leak_canary_version"
+
+	// Timber
+	implementation "com.jakewharton.timber:timber:$timber_version"
+
+	// Lottie
+	implementation "com.airbnb.android:lottie:$lottie_version"
+
+	// Simmer
+	implementation "com.facebook.shimmer:shimmer:$shimmer_version"
+
+	// Koin for Kotlin
+	implementation "org.koin:koin-core:$koin_version"
+	// Koin for Android
+	implementation "org.koin:koin-android:$koin_version"
+	// Koin for Android Scope features
+	implementation "org.koin:koin-android-scope:$koin_version"
+	// Koin for Android ViewModel features
+	implementation "org.koin:koin-android-viewmodel:$koin_version"
+
+	testImplementation "junit:junit:4.13"
+	androidTestImplementation "androidx.test.ext:junit:$androidx_junit_version"
+	androidTestImplementation "androidx.test.espresso:espresso-core:3.3.0"
+
+}
