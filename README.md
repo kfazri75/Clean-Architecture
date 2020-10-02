@@ -1,4 +1,1 @@
-"# Capstone" 
-"# Clean-Architecture" 
-
-[![kfazri75](https://app.circleci.com/pipelines/github/kfazri75/Clean-Architecture.svg?style=svg)](https://app.circleci.com/pipelines/github/kfazri75/Clean-Architecture)
+[![kfazri75](https://circleci.com/gh/arifaizin/Clean-Architecture.svg?style=svg)](https://circleci.com/gh/kfazri75/Clean-Architecture)
